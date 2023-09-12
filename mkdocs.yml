@@ -13,28 +13,24 @@ theme:
   language: zh
   logo: assets/logo.png
   favicon: assets/logo.png
+  custom_dir: overrides
   icon:
     repo: fontawesome/brands/git-alt
   palette:
-    # Palette toggle for automatic mode
-    - media: '(prefers-color-scheme)'
-      toggle:
-        icon: material/brightness-auto
-        name: 浅色
-
     # Palette toggle for light mode
-    - media: '(prefers-color-scheme: light)'
-      scheme: default
+    - scheme: default
       toggle:
-        icon: material/brightness-7
+        icon: material/brightness-7 
         name: 深色
 
     # Palette toggle for dark mode
-    - media: '(prefers-color-scheme: dark)'
-      scheme: slate
+    - scheme: slate
       toggle:
         icon: material/brightness-4
-        name: 自动
+        name: 浅色
+  font:
+    text: Noto Sans SC
+    code: Fira Code
   features:
     - content.action.edit
     # - content.action.view
@@ -50,6 +46,7 @@ theme:
     # - navigation.tabs.sticky
     - navigation.path
     # - navigation.prune
+    # - navigation.expand
     - navigation.indexes
     - navigation.top
     - navigation.footer
@@ -73,7 +70,7 @@ extra:
   social:
     - icon: fontawesome/brands/github
       link: https://github.com/huanglii
-  generator: false
+  # generator: false
 
 # Extensions
 markdown_extensions:
@@ -122,12 +119,24 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 第 0 章 &nbsp; 前言:
-      - chapter_00_preface/index.md
-  - 第 1 章 &nbsp; 概论:
-      - chapter_01_introduction/index.md
-      - 1.1 &nbsp; 地图投影与几何变换: chapter_01_introduction/project_transform.md
-      - 1.2 &nbsp; 空间数据: chapter_01_introduction/spatial_data.md
-      - 1.3 &nbsp; 空间分析: chapter_01_introduction/spatial_analysis.md
-  - 第 2 章 &nbsp; 地图服务:
-      - chapter_01_server/index.md
+  - 第 0 章 前言:
+    - chapter_00_preface/index.md
+  - 第 1 章 概论:
+    - chapter_01_introduction/index.md
+    - 1.1 基本概念: chapter_01_introduction/concepts.md
+    - 1.2 空间参考: chapter_01_introduction/spatial_reference.md
+    - 1.2 GIS 软件: chapter_01_introduction/gis_software.md
+  - 第 2 章 空间数据:
+    - chapter_02_spatial_data/index.md
+    - 2.1 矢量数据: chapter_02_spatial_data/vector.md
+    - 2.1 栅格数据: chapter_02_spatial_data/raster.md
+  - 第 3 章 空间分析:
+    - chapter_03_spatial_analysis/index.md
+  - 第 4 章 空间数据库:
+    - chapter_04_spatial_database/index.md
+    - 4.1 PostGIS: chapter_04_spatial_database/postgis.md
+  - 第 5 章 地图服务:
+    - chapter_05_map_server/index.md
+  - 第 6 章 前端框架:
+    - chapter_06_frontend_framework/index.md
+    - 6.1 Mapbox GL JS: chapter_06_frontend_framework/mapbox-gl-js.md
