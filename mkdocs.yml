@@ -1,3 +1,77 @@
 site_name: WebGIS Starter
+
+# Repository
+repo_name: huanglii/webgis-starter
+repo_url: https://github.com/huanglii/webgis-starter
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2023 huangli
+
 theme:
   name: material
+  language: zh
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for automatic mode
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: material/brightness-auto
+        name: 浅色
+
+    # Palette toggle for light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      toggle:
+        icon: material/brightness-7
+        name: 深色
+
+    # Palette toggle for dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 自动
+  features:
+    - content.action.edit
+    # - content.action.view
+
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.path
+    # - navigation.prune
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - toc.follow
+    # - toc.integrate
+
+extra_css:
+  - stylesheets/extra.css
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/huanglii
+  generator: false
+
+# Page tree
+nav:
+  - 第 0 章 &nbsp; 前言:
+      # [icon: material/book-open-outline]
+      - chapter_00_preface/index.md
+      - 0.1 &nbsp; 关于本书: chapter_00_preface/tree.md
+  - 第 1 章 &nbsp; 概论:
+      # [icon: material/calculator-variant-outline]
+      - chapter_01_introduction/index.md
