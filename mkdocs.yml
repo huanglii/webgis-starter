@@ -1,3 +1,142 @@
 site_name: WebGIS Starter
+
+# Repository
+repo_name: huanglii/webgis-starter
+repo_url: https://github.com/huanglii/webgis-starter
+edit_uri: edit/main/docs/
+
+# Copyright
+copyright: Copyright &copy; 2023 huangli
+
 theme:
   name: material
+  language: zh
+  logo: assets/logo.png
+  favicon: assets/logo.png
+  custom_dir: overrides
+  icon:
+    repo: fontawesome/brands/git-alt
+  palette:
+    # Palette toggle for light mode
+    - scheme: default
+      toggle:
+        icon: material/brightness-7 
+        name: 深色
+
+    # Palette toggle for dark mode
+    - scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: 浅色
+  font:
+    text: Noto Sans SC
+    code: Fira Code
+  features:
+    - content.action.edit
+    # - content.action.view
+    - content.code.copy
+    - content.code.annotate
+    # - content.code.select
+    - content.tooltips
+
+    - navigation.instant
+    - navigation.tracking
+    # - navigation.sections
+    # - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.path
+    # - navigation.prune
+    # - navigation.expand
+    - navigation.indexes
+    - navigation.top
+    - navigation.footer
+
+    - search.highlight
+    - search.share
+    - search.suggest
+
+    - toc.follow
+    # - toc.integrate
+
+extra_css:
+  - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://polyfill.io/v3/polyfill.min.js?features=es6
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+extra:
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/huanglii
+  # generator: false
+
+# Extensions
+markdown_extensions:
+  - abbr
+  - admonition
+  - attr_list
+  - def_list
+  - footnotes
+  - md_in_html
+  - toc:
+      permalink: true
+  - tables
+  - pymdownx.arithmatex:
+      generic: true
+  - pymdownx.betterem
+  - pymdownx.caret
+  - pymdownx.mark
+  - pymdownx.tilde
+  - pymdownx.critic:
+      mode: view
+  - pymdownx.details
+  - pymdownx.emoji:
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+      emoji_index: !!python/name:materialx.emoji.twemoji
+  - pymdownx.highlight:
+      linenums: true
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.keys
+  - pymdownx.magiclink:
+      repo_url_shorthand: true
+      user: squidfunk
+      repo: mkdocs-material
+  - pymdownx.smartsymbols
+  - pymdownx.superfences:
+      custom_fences:
+        - name: mermaid
+          class: mermaid
+          format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.tasklist:
+      custom_checkbox: true
+
+# Page tree
+nav:
+  - 第 0 章 前言:
+    - chapter_00_preface/index.md
+  - 第 1 章 概论:
+    - chapter_01_introduction/index.md
+    - 1.1 基本概念: chapter_01_introduction/concepts.md
+    - 1.2 空间参考: chapter_01_introduction/spatial_reference.md
+    - 1.2 GIS 软件: chapter_01_introduction/gis_software.md
+  - 第 2 章 空间数据:
+    - chapter_02_spatial_data/index.md
+    - 2.1 矢量数据: chapter_02_spatial_data/vector.md
+    - 2.1 栅格数据: chapter_02_spatial_data/raster.md
+  - 第 3 章 空间分析:
+    - chapter_03_spatial_analysis/index.md
+  - 第 4 章 空间数据库:
+    - chapter_04_spatial_database/index.md
+    - 4.1 PostGIS: chapter_04_spatial_database/postgis.md
+  - 第 5 章 地图服务:
+    - chapter_05_map_server/index.md
+  - 第 6 章 前端框架:
+    - chapter_06_frontend_framework/index.md
+    - 6.1 Mapbox GL JS: chapter_06_frontend_framework/mapbox-gl-js.md
