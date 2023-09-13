@@ -12,19 +12,23 @@ theme:
   name: material
   language: zh
   logo: assets/logo.png
-  favicon: assets/logo.png
+  favicon: assets/favicon.svg
   custom_dir: overrides
   icon:
     repo: fontawesome/brands/git-alt
   palette:
     # Palette toggle for light mode
     - scheme: default
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-7
         name: 深色
 
     # Palette toggle for dark mode
     - scheme: slate
+      primary: teal
+      accent: teal
       toggle:
         icon: material/brightness-4
         name: 浅色
@@ -148,3 +152,5 @@ nav:
       - 7.2 Web 开发: chapter_07_frontend_framework/web_development.md
   - 第 8 章 附录:
       - chapter_08_appendix/index.md
+  - 参考文献:
+      - chapter_reference/index.md
