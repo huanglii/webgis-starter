@@ -1,20 +1,6 @@
-<svg width="64" height="64" viewBox="0 0 64 64" fill="none" xmlns="http://www.w3.org/2000/svg">
-<g filter="url(#filter0_d_209_49)">
-<path d="M29 12.0415C30.8564 10.9697 33.1436 10.9697 35 12.0415L47.7846 19.4226C49.641 20.4944 50.7846 22.4752 50.7846 24.6188V39.3812C50.7846 41.5248 49.641 43.5056 47.7846 44.5774L35 51.9585C33.1436 53.0303 30.8564 53.0303 29 51.9585L16.2154 44.5774C14.359 43.5056 13.2154 41.5248 13.2154 39.3812V24.6188C13.2154 22.4752 14.359 20.4944 16.2154 19.4226L29 12.0415Z" stroke="black" stroke-width="4"/>
-<rect x="22" y="25" width="4" height="15" rx="2" fill="black"/>
-<rect x="30" y="32" width="4" height="4" rx="2" fill="black"/>
-<rect x="38" y="25" width="4" height="15" rx="2" fill="black"/>
-</g>
-<defs>
-<filter id="filter0_d_209_49" x="7.21539" y="9.23761" width="49.5692" height="53.5248" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
-<feFlood flood-opacity="0" result="BackgroundImageFix"/>
-<feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
-<feOffset dy="4"/>
-<feGaussianBlur stdDeviation="2"/>
-<feComposite in2="hardAlpha" operator="out"/>
-<feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
-<feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_209_49"/>
-<feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_209_49" result="shape"/>
-</filter>
-</defs>
+<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M21 4.04145C22.8564 2.96966 25.1436 2.96966 27 4.04145L39.7846 11.4226C41.641 12.4944 42.7846 14.4752 42.7846 16.6188V31.3812C42.7846 33.5248 41.641 35.5056 39.7846 36.5774L27 43.9585C25.1436 45.0303 22.8564 45.0303 21 43.9585L8.21539 36.5774C6.35898 35.5056 5.21539 33.5248 5.21539 31.3812V16.6188C5.21539 14.4752 6.35898 12.4944 8.21539 11.4226L21 4.04145Z" stroke="black" stroke-width="4"/>
+<rect x="14" y="17" width="4" height="15" rx="2" fill="black"/>
+<rect x="22" y="24" width="4" height="4" rx="2" fill="black"/>
+<rect x="30" y="17" width="4" height="15" rx="2" fill="black"/>
 </svg>

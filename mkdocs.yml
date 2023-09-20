@@ -123,8 +123,7 @@ markdown_extensions:
 
 # Page tree
 nav:
-  - 第 0 章 前言:
-      - chapter_00_preface/index.md
+  - 第 0 章 序: index.md
   - 第 1 章 概论:
       - chapter_01_introduction/index.md
       - 1.1 基本概念: chapter_01_introduction/concepts.md
@@ -138,6 +137,8 @@ nav:
       - 2.4 数据处理: chapter_02_spatial_data/data_processing.md
   - 第 3 章 空间分析:
       - chapter_03_spatial_analysis/index.md
+      - 3.1 空间插值: chapter_03_spatial_analysis/spatial_interpolation.md
+      - 3.2 重采样: chapter_03_spatial_analysis/resampling.md
   - 第 4 章 地理可视化:
       - chapter_04_geographic_visualization/index.md
   - 第 5 章 空间数据库:

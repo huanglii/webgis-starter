@@ -1,5 +1,6 @@
 ---
 comments: false
+icon: material/home-variant-outline
 hide:
   - footer
 ---
@@ -25,6 +26,8 @@ hide:
 </p>
 
 ---
+
+## 内容简介
 
 ## 关于作者
 
