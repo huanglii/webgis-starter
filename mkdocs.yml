@@ -150,7 +150,6 @@ nav:
   - 第 7 章 前端框架:
       - chapter_07_frontend_framework/index.md
       - 7.1 Mapbox GL JS: chapter_07_frontend_framework/mapbox_gl_js.md
-      - 7.2 Web 开发: chapter_07_frontend_framework/web_development.md
   - 第 8 章 附录:
       - chapter_08_appendix/index.md
   - 参考文献:
