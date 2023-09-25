@@ -125,32 +125,32 @@ markdown_extensions:
 nav:
   - 第 0 章 序: index.md
   - 第 1 章 概论:
-      - chapter_01_introduction/index.md
-      - 1.1 基本概念: chapter_01_introduction/concepts.md
-      - 1.2 空间参考: chapter_01_introduction/spatial_reference.md
-      - 1.3 GIS 软件: chapter_01_introduction/gis_software.md
+      - chapter-introduction/index.md
+      - 1.1 基本概念: chapter-introduction/concepts.md
+      - 1.2 空间参考: chapter-introduction/spatial-reference.md
+      - 1.3 GIS 软件: chapter-introduction/gis-software.md
   - 第 2 章 空间数据:
-      - chapter_02_spatial_data/index.md
-      - 2.1 矢量数据: chapter_02_spatial_data/vector.md
-      - 2.2 栅格数据: chapter_02_spatial_data/raster.md
-      - 2.3 开放数据: chapter_02_spatial_data/open_data.md
-      - 2.4 数据处理: chapter_02_spatial_data/data_processing.md
+      - chapter-spatial-data/index.md
+      - 2.1 矢量数据: chapter-spatial-data/vector.md
+      - 2.2 栅格数据: chapter-spatial-data/raster.md
+      - 2.3 开放数据: chapter-spatial-data/open-data.md
+      - 2.4 数据处理: chapter-spatial-data/data-processing.md
   - 第 3 章 空间分析:
-      - chapter_03_spatial_analysis/index.md
-      - 3.1 空间插值: chapter_03_spatial_analysis/spatial_interpolation.md
-      - 3.2 重采样: chapter_03_spatial_analysis/resampling.md
+      - chapter-spatial-analysis/index.md
+      - 3.1 空间插值: chapter-spatial-analysis/spatial-interpolation.md
+      - 3.2 重采样: chapter-spatial-analysis/resampling.md
   - 第 4 章 地理可视化:
-      - chapter_04_geographic_visualization/index.md
+      - chapter-geographic-visualization/index.md
   - 第 5 章 空间数据库:
-      - chapter_05_spatial_database/index.md
-      - 5.1 PostGIS: chapter_05_spatial_database/postgis.md
+      - chapter-spatial-database/index.md
+      - 5.1 PostGIS: chapter-spatial-database/postgis.md
   - 第 6 章 地图服务:
-      - chapter_06_map_server/index.md
-      - 6.1 GeoServer: chapter_06_map_server/geoserver.md
+      - chapter-map-server/index.md
+      - 6.1 GeoServer: chapter-map-server/geoserver.md
   - 第 7 章 前端框架:
-      - chapter_07_frontend_framework/index.md
-      - 7.1 Mapbox GL JS: chapter_07_frontend_framework/mapbox_gl_js.md
+      - chapter-frontend-framework/index.md
+      - 7.1 Mapbox GL JS: chapter-frontend-framework/mapbox-gl-js.md
   - 第 8 章 附录:
-      - chapter_08_appendix/index.md
+      - chapter-appendix/index.md
   - 参考文献:
-      - chapter_reference/index.md
+      - chapter-reference/index.md

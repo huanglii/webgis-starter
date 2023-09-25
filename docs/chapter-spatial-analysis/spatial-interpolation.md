@@ -11,7 +11,7 @@ comments: true
 如下图所示，左图是已知降雨量值的点数据集，右图是通过这些点插值后的降雨量栅格。未知值是通过使用附近已知点的值和特定的数学模型来预测的。
 
 <figure markdown>
-  ![Image title](./spatial_interpolation.assets/pre.png){ width="300" }
+  ![Image title](./spatial-interpolation.assets/pre.png){ width="300" }
   <figcaption>插值为降雨面</figcaption>
 </figure>
 
@@ -19,4 +19,4 @@ comments: true
 
 确定性插值方法可以划分为两类：全局方法和局部方法。全局方法使用整个数据集计算预测值。局部方法由邻域内的测量点计算预测值，其中邻域是指位于较大研究区域内的较小空间区域。[^2]
 
-[^2]: [空间插值的确定性方法](https://pro.arcgis.com/zh-cn/pro-app/latest/help/analysis/geostatistical-analyst/deterministic-methods-for-spatial-interpolation.htm)
+[^2]: [空间插值的确定性方法 - ArcGIS Pro | 文档](https://pro.arcgis.com/zh-cn/pro-app/latest/help/analysis/geostatistical-analyst/deterministic-methods-for-spatial-interpolation.htm)

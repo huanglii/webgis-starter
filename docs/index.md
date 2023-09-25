@@ -8,7 +8,7 @@ hide:
 <h1 align="center"> </h1>
 
 <p align="center">
-  <img src="assets/covers/index.png" width="520">
+  <img src="assets/covers/hero.png" width="520">
 </p>
 
 <h2 align="center">《 WebGIS Starter 》</h2>
