@@ -128,7 +128,7 @@ nav:
       - chapter-introduction/index.md
       - 1.1 基本概念: chapter-introduction/concepts.md
       - 1.2 空间参考: chapter-introduction/spatial-reference.md
-      - 1.3 GIS 软件: chapter-introduction/gis-software.md
+      - 1.3 软件: chapter-introduction/software.md
   - 第 2 章 空间数据:
       - chapter-spatial-data/index.md
       - 2.1 矢量数据: chapter-spatial-data/vector.md
