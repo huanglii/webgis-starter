@@ -4,10 +4,10 @@ comments: false
 
 # 软件
 
-## GIS 软件[^1]
+## GIS 软件
 
 - [ArcGIS Pro](https://www.esri.com/zh-cn/arcgis/products/arcgis-pro/resources): ArcGIS Pro 是 Esri 提供的功能全面的专业桌面 GIS 应用程序。 借助 ArcGIS Pro，您可以探索、可视化和分析数据；创建 2D 地图和 3D 场景；并与 ArcGIS Online 或 ArcGIS Enterprise 门户共享您的工作。
-- [QGIS](https://www.qgis.org/zh-Hans/site/) :star2: - 自由开源的地理信息系统。
+- [QGIS](https://www.qgis.org/zh-Hans/site/) - 自由开源的地理信息系统。
 - [DIVA-GIS](https://www.diva-gis.org/) - DIVA-GIS is a free geographic information system software program used for the analysis of geographic data, in particular point data on biodiversity.
 - [GeoDa](http://geodacenter.github.io/) - A free and open source software tool that serves as an introduction to spatial data analysis.
 - [GISInternals](http://www.gisinternals.com/) - Povidesdaily build packages and software development kits for the GDAL and MapServer
@@ -26,11 +26,11 @@ comments: false
 - [DIVA-GIS](https://www.diva-gis.org/) - DIVA-GIS is a free geographic information system software program used for the analysis of geographic data, in particular point data on biodiversity.
 - [Abc-Map](https://abc-map.fr/) - A lightweight and user-friendly Web GIS. Create, import data from various sources, export maps or share them online freely and easily.
 
-## RS 软件[^1]
+## RS 软件
 
+- [ENVI](https://www.harris.com/solution/envi) - A geospatial imagery analysis and processing software.
 - [eCognition](http://www.ecognition.com/suite/ecognition-developer) - A powerful development environment for object-based image analysis.
-- [ENVI](https://www.harris.com/solution/envi) :star2: - A geospatial imagery analysis and processing software.
-- [ERDAS IMAGINE](https://www.hexagongeospatial.com/products/power-portfolio/erdas-imagine) :star2: - A geospatial imagery analysis and processing software.
+- [ERDAS IMAGINE](https://www.hexagongeospatial.com/products/power-portfolio/erdas-imagine) - A geospatial imagery analysis and processing software.
 - [Google Earth](https://www.google.com/earth/) - A computer program that renders a 3D representation of Earth based on satellite imagery.
 - [Google Earth Studio](https://www.google.com/earth/studio/) - An animation tool for Google Earth’s satellite and 3D imagery.
 - [GRASS GIS](https://grass.osgeo.org/) - A free and open source GIS software suite used for geospatial data management and analysis, image processing, graphics and maps production, spatial modeling, and visualization.
@@ -40,7 +40,7 @@ comments: false
 - [PCI Geomatica](http://www.pcigeomatics.com/software/geomatica/professional) - A remote sensing desktop software package for processing earth observation data.
 - [SNAP](http://step.esa.int/main/toolboxes/snap/) - A common architecture for all Sentinel Toolboxes.
 
-## 3D 应用[^1]
+## 3D 应用
 
 - [ArcGIS Earth](http://www.esri.com/software/arcgis-earth) - Allows you to explore any part of the world. Work with a variety of 3D and 2D map data formatt, including KML. Display data, sketch placemarks, measure and perform interactive analysis, and add annotations.
 - [CityEngine](http://www.esri.com/software/cityengine/) - Advanced 3D modeling software.
@@ -50,16 +50,16 @@ comments: false
 - [Skyline](http://www.skylineglobe.com/SkylineGlobe/corporate/Default.aspx?) - 3D desktop and web-based applications, enabling an enterprise to build, edit, navigate, query, and analyze realistic 3D environments.
 - [World Wind](http://worldwind.arc.nasa.gov/java/) - An SDK (software development kit) that software engineers can use to build their own applications
 
-## 网络地图服务[^1]
+## 网络地图服务
 
-- [ArcGIS Server](http://server.arcgis.com/) - A GIS server for enterprise application.
+- [ArcGIS Server](https://enterprise.arcgis.com/zh-cn/server/) - 管理您的地理数据并为您的组织提供高级分析。
+- [GeoServer](http://geoserver.org/) - 共享地理空间数据的开源服务器。
 - [Baremaps](https://www.baremaps.com/) - Apache Baremaps is a toolkit and a set of infrastructure components for creating, publishing, and operating online maps.
 - [deegree](http://www.deegree.org/) - An open source software for spatial data infrastructures and the geospatial web
 - [GeoDjango](https://docs.djangoproject.com/en/3.1/ref/contrib/gis/) - A GIS server built with python web framework -- django
 - [geomajas](http://www.geomajas.org/) - An open source platform to create Web GIS applications
 - [GeoMOOSE](http://www.geomoose.org/) - A Web Client JavaScript Framework for displaying distributed cartographic data
 - [GeoNode](http://geonode.org/) - Open Source Geospatial Content Management System.
-- [GeoServer](http://geoserver.org/) - An open source server for sharing geospatial data
 - [GeoTrellis](https://github.com/locationtech/geotrellis) - A geographic data processing engine for high performance applications that uses Spark to work with raster data.
 - [GeoWebCache](https://www.geowebcache.org/) - A java web application used to cache map tiles coming from a variety of sources such as OGC WMS in order to accelerate and optimize map image delivery.
 - [Google Earth Enterprise](https://github.com/google/earthenterprise) - the open source release of Google Earth Enterprise, a geospatial application which provides the ability to build and host custom 3D globes and 2D maps.

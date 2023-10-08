@@ -62,6 +62,9 @@ theme:
     - toc.follow
     # - toc.integrate
 
+plugins:
+  - glightbox
+
 extra_css:
   - stylesheets/extra.css
 

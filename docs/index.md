@@ -1,8 +1,8 @@
 ---
-comments: false
+comments: true
 icon: material/home-variant-outline
 hide:
-  - footer
+  # - footer
 ---
 
 <h1 align="center"> </h1>
@@ -13,7 +13,7 @@ hide:
 
 <h2 align="center">《 WebGIS Starter 》</h2>
 
-<p align="center">有点子全面的 WebGIS 开源书籍</p>
+<p align="center">一点子全面的 WebGIS 开源书籍</p>
 
 <p align="center">
   <a href="https://github.com/huanglii/webgis-starter">
@@ -49,7 +49,7 @@ hide:
 2. 修改 Markdown 源文件内容，检查内容的正确性，并尽量保持排版格式的统一。
 3. 点击右上角“Commit changes”按钮，填写修改说明，选择“Create a new branch...”，然后点击“Propose file change”按钮。页面跳转后，点击“Create pull request”按钮即可发起拉取请求。
 
-![](./index.assets/commit_changes.png)
+![](./index.assets/commit-changes.png)
 
 ### 内容创作
 

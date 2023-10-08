@@ -8,7 +8,7 @@ comments: true
 
 地图投影是按照一定的数学法则，将地球椭球面上的经纬网转换到平面上，建立地面点的地理坐标与平面直角坐标之间一一对应的函数关系。由于地球是一个不规则的曲面，地图投影不可避免地会产生变形，通常分为长度、面积和角度三种变形。因此地图投影可按变形性质分为等距投影、等积投影和等角投影。[^1]
 
-[^1]: 张康聪（Kang-tsung Chang）（作者）, 陈健飞等（译者），地理信息系统导论（第 9 版），科学出版社，2018 年。
+[^1]: 张康聪（Kang-tsung Chang）（作者），陈健飞等（译者），地理信息系统导论（第 9 版），科学出版社，2018 年。
 
 <figure markdown>
   ![地图投影列表](./spatial-reference.assets/projections.webp)
@@ -47,5 +47,5 @@ B -->|二次加密| C[BD09]
 | 坐标拾取器   | 地址                                       |
 | ------------ | ------------------------------------------ |
 | 高德 (GCJ02) | https://lbs.amap.com/tools/picker/         |
-| 高德 (GCJ02) | https://api.map.baidu.com/lbsapi/getpoint/ |
+| 百度 (BD09) | https://api.map.baidu.com/lbsapi/getpoint/ |
 | 腾讯 (GCJ02) | https://lbs.qq.com/getPoint/               |
