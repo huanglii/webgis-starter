@@ -17,7 +17,7 @@ comments: true
 
 ^^投影^^ 是将数据从地理坐标转成投影坐标，^^重投影^^ 是从一种投影坐标转成另一种投影坐标。
 
-### 即时（on-the-fly）投影（动态投影）
+### 即时 (on-the-fly) 投影（动态投影）
 
 即时投影可根据不同坐标系统显示其数据集。默认情况下，将向地图或场景分配向其添加的第一个要素图层的坐标系。具有不同坐标系的后续要素图层将实时投影到地图的空间参考（动态），而不会改变源数据。[^2]
 
@@ -30,11 +30,11 @@ comments: true
 
 ### 地理坐标系统和投影坐标系统
 
-地理坐标系统（Geographic Coordinate System，GCS）是地球表面空间实体的定位参照系统，以经纬度表示。投影坐标系统（Projected Coordinate System，PCS）是基于地图投影的平面坐标系统，以平面直角坐标表示空间实体。
+地理坐标系统 (Geographic Coordinate System，GCS) 是地球表面空间实体的定位参照系统，以经纬度表示。投影坐标系统 (Projected Coordinate System，PCS) 是基于地图投影的平面坐标系统，以平面直角坐标表示空间实体。
 
 ### 火星坐标系
 
-火星坐标系，也叫国测局坐标系（GCJ02），是由中国国家测绘局制订的地理信息系统的坐标系统。国内出版的各种地图系统（包括电子形式），必须至少采用“GCJ02”对地理位置进行首次加密。
+火星坐标系，也叫国测局坐标系 (GCJ02) ，是由中国国家测绘局制订的地理信息系统的坐标系统。国内出版的各种地图系统（包括电子形式），必须至少采用“GCJ02”对地理位置进行首次加密。
 
 ```mermaid
 graph LR
@@ -42,7 +42,7 @@ A[WGS84] --> |加密| B[GCJ02]
 B -->|二次加密| C[BD09]
 ```
 
-![Image title](./spatial-reference.assets/mars-coord.png){ align=left width=225 }
+![Image title](./spatial-reference.assets/mars-coord.png){ align=left width=230 }
 
 | 坐标拾取器   | 地址                                       |
 | ------------ | ------------------------------------------ |

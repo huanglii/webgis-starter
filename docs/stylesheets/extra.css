@@ -4,3 +4,7 @@
 [data-md-color-scheme='slate'] .md-typeset video {
   filter: brightness(0.85) invert(0.05);
 }
+
+.center {
+  text-align: center;
+}
