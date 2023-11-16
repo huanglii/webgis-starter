@@ -42,10 +42,11 @@ A[WGS84] --> |加密| B[GCJ02]
 B -->|二次加密| C[BD09]
 ```
 
-![Image title](./spatial-reference.assets/mars-coord.png){ align=left width=230 }
+![Image title](./spatial-reference.assets/mars-coord.png){ align=left width=222 }
 
 | 坐标拾取器   | 地址                                       |
 | ------------ | ------------------------------------------ |
+| 本站 (WGS84) | https://www.naivemap.com/location-picker/  |
 | 高德 (GCJ02) | https://lbs.amap.com/tools/picker/         |
-| 百度 (BD09) | https://api.map.baidu.com/lbsapi/getpoint/ |
+| 百度 (BD09)  | https://api.map.baidu.com/lbsapi/getpoint/ |
 | 腾讯 (GCJ02) | https://lbs.qq.com/getPoint/               |

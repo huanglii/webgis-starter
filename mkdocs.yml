@@ -64,6 +64,7 @@ theme:
 
 plugins:
   - glightbox
+  - search
 
 extra_css:
   - stylesheets/extra.css
