@@ -28,9 +28,13 @@ comments: true
 ![](./spatial-reference.assets/crs.png##only-light)
 ![](./spatial-reference.assets/crs-dark.png##only-dark)
 
-### 地理坐标系统和投影坐标系统
+### 地理坐标系统
 
-地理坐标系统 (Geographic Coordinate System，GCS) 是地球表面空间实体的定位参照系统，以经纬度表示。投影坐标系统 (Projected Coordinate System，PCS) 是基于地图投影的平面坐标系统，以平面直角坐标表示空间实体。
+地理坐标系统 (Geographic Coordinate System，GCS) 是地球表面空间实体的定位参照系统，以经纬度表示。
+
+### 投影坐标系统
+
+投影坐标系统 (Projected Coordinate System，PCS) 是基于地图投影的平面坐标系统，以平面直角坐标表示空间实体。
 
 ### 火星坐标系
 
