@@ -1,3 +1,7 @@
+---
+comments: true
+---
+
 # 地理数据
 
 地理数据是对现实世界的地理空间实体、现象以及它们之间相互关系的认知和理解的抽象表达，用于在计算机中进行处理和分析。这些数据表达方式主要分为两大类：矢量数据和栅格数据
@@ -15,9 +19,9 @@
 
 ### GeoJSON
 
-GeoJSON[^1] 是基于 JSON 格式扩展的地理数据格式，用于对矢量数据结构进行编码。GeoJSON 支持 `Point`，`LineString`，`Polygon`，`MultiPoint`，`MultiLineString`，和 `MultiPolygon` 几何类型，带有属性 (`properties`) 的几何对象称为要素 (`Feature`)，要素集 (`FeatureCollection`) 包含一系列要素 (`Feature`)。如：
+GeoJSON[^1] 是一种基于 JavaScript Object Notation（JSON）的地理空间数据交换格式。GeoJSON 支持 `Point`，`MultiPoint`，`LineString`，`MultiLineString`，`Polygon`，`MultiPolygon` 和 `GeometryCollection` 几何类型，带有属性 (`properties`) 的几何对象称为要素 (`Feature`)，要素集 (`FeatureCollection`) 包含一系列要素 (`Feature`)。如：
 
-```json
+```json hl_lines="6-9"
 {
   "type": "FeatureCollection",
   "features": [
@@ -31,6 +35,135 @@ GeoJSON[^1] 是基于 JSON 格式扩展的地理数据格式，用于对矢量�
         "name": "Dinagat Islands"
       }
     }
+  ]
+}
+```
+
+除 `GeometryCollection` 外的其他类型的 GeoJSON 几何对象必须有坐标 (`coordinates`) 属性，其值总是数组，这个数组里的元素的结构由几何类型来确定。
+
+#### Position
+
+位置 (`Position`) 是基本的几何结构，由其组成几何对象的坐标属性。位置是一个长度为 2 或 3 的数值类型数组，前 2 个元素分别为经度和纬度（地理坐标系）或东向和北向（投影坐标系），如：`[125.6, 10.1]`。如果需要表示海拔或高度，可由第 3 个元素表示，如：`[125.6, 10.1, 1000]`。
+
+#### Point
+
+```json
+{ "type": "Point", "coordinates": [100.0, 0.0] }
+```
+
+#### MultiPoint
+
+```json
+{
+  "type": "MultiPoint",
+  "coordinates": [
+    [100.0, 0.0],
+    [101.0, 1.0]
+  ]
+}
+```
+
+#### LineString
+
+```json
+{
+  "type": "LineString",
+  "coordinates": [
+    [100.0, 0.0],
+    [101.0, 1.0]
+  ]
+}
+```
+
+#### MultiLineString
+
+```json
+{
+  "type": "MultiLineString",
+  "coordinates": [
+    [
+      [100.0, 0.0],
+      [101.0, 1.0]
+    ],
+    [
+      [102.0, 2.0],
+      [103.0, 3.0]
+    ]
+  ]
+}
+```
+
+#### Ploygon
+
+描述多边形 (`Ploygon`) 之前，需要先了解线性环 (`linear ring`)：
+
+- 线性环是一个至少 4 个位置的闭合线；
+- 首尾位置必须相同；
+- 线性环是面的边界或面中孔的边界；
+- 必须遵循右手规则，即外环为逆时针方向，孔为顺时针方向。
+
+```json title="多边形"
+{
+  "type": "Polygon",
+  "coordinates": [
+    [
+      [100.0, 0.0],
+      [101.0, 0.0],
+      [101.0, 1.0],
+      [100.0, 1.0],
+      [100.0, 0.0]
+    ]
+  ]
+}
+```
+
+```json title="有孔的多边形"
+{
+  "type": "Polygon",
+  "coordinates": [
+    [
+      [100.0, 0.0],
+      [103.0, 0.0],
+      [103.0, 3.0],
+      [100.0, 3.0],
+      [100.0, 0.0] // 外环逆时针
+    ],
+    [
+      [101.0, 1.0],
+      [101.0, 2.0],
+      [102.0, 2.0],
+      [102.0, 1.0],
+      [101.0, 1.0] // 内环顺时针
+    ]
+  ]
+}
+```
+
+#### MultiPolygon
+
+```json
+{
+  "type": "MultiPolygon",
+  "coordinates": [
+    // 多多边形即多个多边形
+    [
+      [
+        [100.0, 0.0],
+        [101.0, 0.0],
+        [101.0, 1.0],
+        [100.0, 1.0],
+        [100.0, 0.0]
+      ]
+    ], // 多边形 1
+    [
+      [
+        [102.0, 0.0],
+        [103.0, 0.0],
+        [103.0, 1.0],
+        [102.0, 1.0],
+        [102.0, 0.0]
+      ]
+    ] // 多边形2
   ]
 }
 ```
