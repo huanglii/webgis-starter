@@ -13,7 +13,7 @@ hide:
 
 <h2 align="center">《 WebGIS Starter 》</h2>
 
-<p align="center">一点子全面的 WebGIS 开源书籍</p>
+<p align="center">一本 WebGIS 开源书籍</p>
 
 <p align="center">
   <a href="https://github.com/huanglii/webgis-starter">
@@ -29,7 +29,7 @@ hide:
 
 ## 内容简介
 
-内容涵盖 GIS 基础知识、原理和数据处理登，WebGIS 相关数据存储、服务、可视化和分析等。
+内容涵盖 GIS 基础知识、原理和数据处理等，WebGIS 相关数据存储、服务、可视化和分析等。
 
 ## 关于作者
 

@@ -95,7 +95,7 @@ GeoJSON[^1] 是一种基于 JavaScript Object Notation（JSON）的地理空间�
 
 #### Ploygon
 
-描述多边形 (`Ploygon`) 之前，需要先了解线性环 (`linear ring`)：
+描述多边形 (`Ploygon`) 之前，需要先了解组成多边形的线性环 (`linear ring`)：
 
 - 线性环是一个至少 4 个位置的闭合线；
 - 首尾位置必须相同；

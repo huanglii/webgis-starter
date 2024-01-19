@@ -150,9 +150,11 @@ nav:
   - 第 6 章 地图服务:
       - chapter-map-server/index.md
       - 6.1 GeoServer: chapter-map-server/geoserver.md
+      - 6.2 MapProxy: chapter-map-server/mapproxy.md
   - 第 7 章 前端框架:
       - chapter-frontend-framework/index.md
       - 7.1 Mapbox GL JS: chapter-frontend-framework/mapbox-gl-js.md
+      - 7.2 L7: chapter-frontend-framework/l7.md
   - 第 8 章 附录:
       - chapter-appendix/index.md
   - 参考文献:
