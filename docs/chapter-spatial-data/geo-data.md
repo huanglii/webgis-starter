@@ -39,6 +39,8 @@ GeoJSON[^1] 是一种基于 JavaScript Object Notation（JSON）的地理空间�
 }
 ```
 
+> 有关 GeoJSON 的 JavaScript 库请查阅：[GeoJSON](/chapter-frontend-framework/geojson/)
+
 除 `GeometryCollection` 外的其他类型的 GeoJSON 几何对象必须有坐标 (`coordinates`) 属性，其值总是数组，这个数组里的元素的结构由几何类型来确定。
 
 #### Position

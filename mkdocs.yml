@@ -155,6 +155,7 @@ nav:
       - chapter-frontend-framework/index.md
       - 7.1 Mapbox GL JS: chapter-frontend-framework/mapbox-gl-js.md
       - 7.2 L7: chapter-frontend-framework/l7.md
+      - 7.3 GeoJSON: chapter-frontend-framework/geojson.md
   - 第 8 章 附录:
       - chapter-appendix/index.md
   - 参考文献:
